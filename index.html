@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>RaspiCar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+	<script src="http://192.168.0.113:8888/socket.io/socket.io.js"></script>
+    <center>
+    <table>
+        <tr>
+            <td>
+        <img id="image" src="http://192.168.0.113:8090/?action=stream"/>
+            </td>
+            <td>
+        <table bordercolor="#F7F7F7" frame="hsides">
+            <tr>
+                <td></td>
+                <td><input type="button" class="botonimagen" id="button_up"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="botonimagen" id="button_left"/></td>
+                <td><input type="button" class="botonimagen" id="button_stop"/></td>
+                <td><input type="button" class="botonimagen" id="button_right"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" class="botonimagen" id="button_down"/></td>
+                <td></td>
+            </tr>
+        </table>
+    
+    </td>
+</tr>
+</tbody>
+</center>
+</body>
+</html>
